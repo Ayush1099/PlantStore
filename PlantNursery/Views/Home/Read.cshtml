@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Plants>
+
+@{
+    ViewData["Title"] = "Plants Available";
+}
+<h1>@ViewData["Title"]</h1>
+
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PlantId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PlantName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityAvailable)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlantId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlantName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuantityAvailable)
+                </td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@item.PlantId">Add to cart</a>
+                    <a class="btn btn-secondary" asp-controller="Home" asp-action="Update" asp-route-id="@item.PlantId">Update</a>
+                    <a class="btn btn-danger" asp-controller="Home" asp-action="Delete" asp-route-id="@item.PlantId">Delete Plant</a>
+                </td>
+            </tr>
+        }
+</table>
+@if (Model != null)
+{
+    <a class="btn btn-primary" asp-controller="Cart" asp-action="Index">View Cart</a>
+}

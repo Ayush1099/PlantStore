@@ -1,0 +1,11 @@
+Scope of Improvement:-
+This case study was developed in a single project i.e ASP.NET CORE MVC 6.0 however there should be a seperate Data access layer which should be used to connect do the DB and perform the query operations.
+
+Fluent Validations should be implemented for input fields
+
+Feature to show that the product is out of stock should be implemented
+
+An image of the product should be displayed along with their respective products
+
+Proper logging and error handling middleware should be implemented
+
