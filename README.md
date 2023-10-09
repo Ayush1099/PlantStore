@@ -12,6 +12,8 @@ Language: C#, JavaScript
 It has a Cart feature using which the user can purchase the plants. The checkout button will give a success message upon successful purchase and reduce the quantity of the plants purchased in the DB.
 ![checkout](https://github.com/Ayush1099/PlantStore/assets/30565720/79ec6c7b-d06f-4dd9-8c1b-ca43a6501eb6)
 
+The user can also create new plants
+![image](https://github.com/Ayush1099/PlantStore/assets/30565720/ee06e0d5-8e8f-47d5-a57b-f7e0da144e5f)
 
 ## Setup Application & DB
 Clone the Git Repository 'https://github.com/Ayush1099/PlantStore.git' in Visual Studio(VS)
