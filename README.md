@@ -16,10 +16,10 @@ The user can also create new plants
 ![image](https://github.com/Ayush1099/PlantStore/assets/30565720/ee06e0d5-8e8f-47d5-a57b-f7e0da144e5f)
 
 ## Setup Application & DB
-Clone the Git Repository 'https://github.com/Ayush1099/PlantStore.git' in Visual Studio(VS)
-Click on the "View" option on the top left of VS
-Select "SQL Server Object Explorer"
-Right click on "(localdb)\MSSQLLocalDB" and select "New Query" and then run the following commands
+1. Clone the Git Repository 'https://github.com/Ayush1099/PlantStore.git' in Visual Studio(VS).
+2. Click on the "View" option on the top left of VS.
+3. Select "SQL Server Object Explorer".
+4. Right click on "(localdb)\MSSQLLocalDB" and select "New Query" and then run the following commands.
 
 CREATE DATABASE PlantNurseryDB
 GO
