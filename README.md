@@ -9,7 +9,9 @@ Database: MSSQL
 Language: C#, JavaScript
 
 ## Features
-It has a Cart feature using which the user can purchase the plants. The checkout button will give a success message upon successful purchase and reduce the quantity of the plants purchased in the DB
+It has a Cart feature using which the user can purchase the plants. The checkout button will give a success message upon successful purchase and reduce the quantity of the plants purchased in the DB.
+![checkout](https://github.com/Ayush1099/PlantStore/assets/30565720/79ec6c7b-d06f-4dd9-8c1b-ca43a6501eb6)
+
 
 ## Setup Application & DB
 Clone the Git Repository 'https://github.com/Ayush1099/PlantStore.git' in Visual Studio(VS)
