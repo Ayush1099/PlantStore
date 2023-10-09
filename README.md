@@ -9,7 +9,9 @@ Database: MSSQL
 Language: C#, JavaScript
 
 ## Features
-It has a Cart feature using which the user can purchase the plants. The checkout button will give a success message upon successful purchase and reduce the quantity of the plants purchased in the DB.
+1. It has a Cart feature using which the user can purchase the plants.
+2. Here Session Storage is used to store the Cart Items.
+3. The checkout button will give a success message upon successful purchase and reduce the quantity of the plants purchased in the DB.
 ![checkout](https://github.com/Ayush1099/PlantStore/assets/30565720/79ec6c7b-d06f-4dd9-8c1b-ca43a6501eb6)
 
 The user can also create new plants
