@@ -4,9 +4,9 @@ This is an Plant Store application where the user can perform CRUD operation lik
 ![PlantStore](https://github.com/Ayush1099/PlantStore/assets/30565720/b585997b-60dd-49d2-a3cf-9731a13f157c)
 
 ## Technologies Used
-Framework: ASP.NET Core MVC
-Database: MSSQL
-Language: C#, JavaScript
+1. Framework: ASP.NET Core MVC
+2. Database: MSSQL
+3. Language: C#, JavaScript
 
 ## Features
 1. It has a Cart feature using which the user can purchase the plants.
